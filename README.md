@@ -40,14 +40,13 @@ bash
 Редактировать
 cd Part2
 npm install
-📜 Contract Overview
-Contract: AstanaITAbzhapparovaGSE2331Token.sol
-
-This contract implements an ERC-20 token with the following features:
+## 📜 Contract Overview
+**Contract:** `AstanaITAbzhapparovaGSE2331Token.sol`  
+This contract implements an **ERC-20** token named has features:
 
 Initial Supply: 2000 tokens are minted and sent to the contract owner upon deployment.
 Transaction Information: Functions to retrieve the sender, receiver, and timestamp of the latest transaction.
-Key Functions:
+## 🔑 Key Functions:
 getLastTransactionTimestamp(): Returns the timestamp of the latest transaction in a human-readable format (YYYY-MM-DD HH:MM:SS).
 getTransactionSender(): Returns the address of the transaction sender.
 getTransactionReceiver(address to): Returns the address of the transaction receiver.
