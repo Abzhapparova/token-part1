@@ -16,20 +16,20 @@ assignment3/
 │   │   └── AstanaITAbzhapparovaGSE2331Token.test.js # Test Cases
 │   ├── README.md                                   # Documentation for Part 2
 ├── LICENSE                                         # MIT License
-└── README.md                                     # This file
+└── README.md                                       # This file
 
-🛠️ Installation and Setup
-1. Prerequisites
+## 🛠️ Installation and Setup
+
+### 1. Prerequisites
 Before you start, make sure you have the following installed:
 
-Node.js (v16 or higher)
-Hardhat (for testing in Part 2)
-2. Clone the Repository
+- Node.js (v16 or higher)
+- Hardhat (for testing in Part 2)
+
+### 2. Clone the Repository
 To clone the repository, run the following commands:
 
-bash
-Копировать
-Редактировать
+```bash
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 3. Install Dependencies (for Part 2)
@@ -42,6 +42,7 @@ cd Part2
 npm install
 📜 Contract Overview
 Contract: AstanaITAbzhapparovaGSE2331Token.sol
+
 This contract implements an ERC-20 token with the following features:
 
 Initial Supply: 2000 tokens are minted and sent to the contract owner upon deployment.
@@ -66,7 +67,6 @@ Token Creation: Verifies that 2000 tokens are minted and sent to the owner.
 Token Transfer: Ensures that tokens can be transferred between addresses.
 Transaction Information: Checks that the sender, receiver, and timestamp are correctly retrieved.
 Edge Cases: Ensures that the contract handles invalid transactions (e.g., insufficient balance).
-
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
