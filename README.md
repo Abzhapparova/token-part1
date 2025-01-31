@@ -17,7 +17,7 @@ assignment3/
 │   ├── README.md                                   # Documentation for Part 2
 ├── LICENSE                                         # MIT License
 └── README.md                                       # This file
-
+```
 ## 🛠️ Installation and Setup
 
 ### 1. Prerequisites
@@ -32,9 +32,9 @@ To clone the repository, run the following commands:
 ```bash
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
+```
 3. Install Dependencies (for Part 2)
 Navigate to the Part2 folder and install the required dependencies:
-
 bash
 Копировать
 Редактировать
