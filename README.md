@@ -18,6 +18,7 @@ assignment3/
 ├── LICENSE                                         # MIT License
 └── README.md                                       # This file
 ```
+
 ## 🛠️ Installation and Setup
 
 ### 1. Prerequisites
@@ -33,47 +34,62 @@ To clone the repository, run the following commands:
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 ```
-3. Install Dependencies (for Part 2)
-Navigate to the Part2 folder and install the required dependencies:
-bash
-Копировать
-Редактировать
+
+### 3. Install Dependencies (for Part 2)
+Navigate to the `Part2` folder and install the required dependencies:
+
+```bash
 cd Part2
 npm install
+```
+
 ## 📜 Contract Overview
-**Contract:** `AstanaITAbzhapparovaGSE2331Token.sol`  
-This contract implements an **ERC-20** token named has features:
 
-Initial Supply: 2000 tokens are minted and sent to the contract owner upon deployment.
-Transaction Information: Functions to retrieve the sender, receiver, and timestamp of the latest transaction.
+**Contract:** `AstanaITAbzhapparovaGSE2331Token.sol`
+
+This contract implements an **ERC-20** token with the following features:
+
+- **Initial Supply:** 2000 tokens are minted and sent to the contract owner upon deployment.
+- **Transaction Information:** Functions to retrieve the sender, receiver, and timestamp of the latest transaction.
+
 ## 🔑 Key Functions:
-getLastTransactionTimestamp(): Returns the timestamp of the latest transaction in a human-readable format (YYYY-MM-DD HH:MM:SS).
-getTransactionSender(): Returns the address of the transaction sender.
-getTransactionReceiver(address to): Returns the address of the transaction receiver.
-transfer(address to, uint256 amount): Transfers tokens to the specified address.
-🧪 Testing (Part 2)
-Running Tests
-To run the tests for the modified contract in Part 2, navigate to the Part2 folder and execute:
 
-bash
-Копировать
-Редактировать
+- `getLastTransactionTimestamp()`: Returns the timestamp of the latest transaction in a human-readable format (YYYY-MM-DD HH:MM:SS).
+- `getTransactionSender()`: Returns the address of the transaction sender.
+- `getTransactionReceiver(address to)`: Returns the address of the transaction receiver.
+- `transfer(address to, uint256 amount)`: Transfers tokens to the specified address.
+
+## 🧪 Testing (Part 2)
+
+### Running Tests
+To run the tests for the modified contract in Part 2, navigate to the `Part2` folder and execute:
+
+```bash
 npx hardhat test
-Test Coverage
+```
+
+### Test Coverage
 The tests cover the following scenarios:
 
-Token Creation: Verifies that 2000 tokens are minted and sent to the owner.
-Token Transfer: Ensures that tokens can be transferred between addresses.
-Transaction Information: Checks that the sender, receiver, and timestamp are correctly retrieved.
-Edge Cases: Ensures that the contract handles invalid transactions (e.g., insufficient balance).
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+- **Token Creation:** Verifies that 2000 tokens are minted and sent to the owner.
+- **Token Transfer:** Ensures that tokens can be transferred between addresses.
+- **Transaction Information:** Checks that the sender, receiver, and timestamp are correctly retrieved.
+- **Edge Cases:** Ensures that the contract handles invalid transactions (e.g., insufficient balance).
 
-🙏 Acknowledgments
-OpenZeppelin for the ERC-20 template.
-Hardhat for the testing framework.
-📧 Contact
+## 📄 License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+## 🙏 Acknowledgments
+
+- OpenZeppelin for the ERC-20 template.
+- Hardhat for the testing framework.
+
+## 📧 Contact
+
 For questions or feedback, feel free to reach out:
 
-Email: 231405@astanait.edu.kz
-GitHub: Abzhapparova
+- **Email:** 231405@astanait.edu.kz
+- **GitHub:** [Abzhapparova](https://github.com/Abzhapparova)
+
+
